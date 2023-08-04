@@ -1,0 +1,45 @@
+body{
+    width: 100%;
+}
+
+#login{
+    background: linear-gradient(120deg, #4c79d3 44.9%, #fff 45%) no-repeat fixed;
+}
+
+.text-login{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500px;
+}
+
+.coins{
+    position: absolute;
+    bottom: 90px;
+}
+
+.button-login{
+    border-radius: 10px;
+    background-color: #420070;
+    color: whitesmoke;
+    width: 50%;
+    margin: 0 25%;
+    text-align: center;
+}
+
+.button-login:hover, .button-default:hover{
+    background: #4c79d3;
+    color: #fff ;
+}
+
+.link-default{
+    color: #6b3FA0;
+    cursor: pointer;
+}
+
+.link-default:hover{
+    color: #4c73d3;
+}
+
+.button-cancel{
+    border-radius: 10px;
+}
